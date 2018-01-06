@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+ <Button
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="33dp"
+     android:id="@+id/button"
+     android:text="goto next activity"
+     />
+
+    <TextView
+        android:text="firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fn"
+        android:textSize="21dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:text="lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ln"
+        android:textSize="21dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/buttonsec"
+        android:text="goto sec activity"
+        />
+
+</LinearLayout>
